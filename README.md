@@ -1,29 +1,10 @@
-# Soldered NAZIV PROIZVODA Component
+# Soldered Slider Potentiometer Qwiic Component
 
 | ![Product name](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :------------------------------------------------------------------------------------: |
-|                      [NAZIV PROIZVODA](https://www.solde.red/SKU)                      |
+|                    [Slider Potentiometer Qwiic](https://www.solde.red/SKU)             |
 
-OPIS PROIZVODA + LINK NA [Qwiic ecosystem](https://soldered.com/collections/qwiic-ecosystem).
-
-### Using the template
-
-Before publishing a new component make sure to replace:
-
-- `NAZIV PROIZVODA`, `OPIS PROIZVODA`, product image, SKU link, and the "Original source" line in this README
-- `version`, `description`, `url` in `idf_component.yml`
-- `components:` name and `namespace:` in `.github/workflows/upload_component.yml`
-- filenames in `src/` and `include/` plus matching `SRCS` and `INCLUDE_DIRS` in `CMakeLists.txt` and `#include` in the `.c` file
-- dependency key in `examples/.../idf_component.yml` (path stays `../../..`)
-- `@file`, `@brief`, `@param`, `@return` Doxygen comments in `include/*.h`, `src/*.c`, and `examples/basic/main/main.c` to describe the real API
-
-Also make sure to add examples.
-
-Run `./format.sh` before committing to auto-format `src/`, `include/`, and the example against the project's astyle rules (`.astyle-rules.yml`). CI runs the same check on every push/PR via `.github/workflows/format-check.yml` and fails on unformatted code.
-
-**Remove this section of README after everything is done!**
-
-For uploading to Registry you need to register a trusted publisher under a component. To make the release to the registry you must bump `version` in `idf_component.yml` to `X.Y.Z`, push that commit, and confirm Format Check + Build Examples both pass on it (Actions tab) before tagging. Only once both are green: `git tag vX.Y.Z && git push origin vX.Y.Z`.
+ESP-IDF driver for the Soldered Slider Potentiometer Qwiic board, part of the [Qwiic ecosystem](https://soldered.com/collections/qwiic-ecosystem). Reads the slider position over I2C via the board's onboard ATtiny (easyC firmware), as raw 10-bit ADC value (0-1023) or scaled percentage. The board's I2C address defaults to `0x30`, ORed with up to 3 bits set by the onboard DIP switches (`0x30`-`0x37`).
 
 ### Repository Contents
 
@@ -34,7 +15,7 @@ For uploading to Registry you need to register a trusted publisher under a compo
 
 ### Hardware design
 
-You can find hardware design for this board in _NAZIV PROIZVODA_ hardware repository.
+You can find hardware design for this board in _Slider Potentiometer Qwiic_ hardware repository.
 
 ### Documentation
 
@@ -49,10 +30,6 @@ At Soldered, we design and manufacture a wide selection of electronic products t
 - [Web Store](https://www.soldered.com/shop)
 - [Tutorials & Projects](https://soldered.com/learn)
 - [Documentation](https://docs.soldered.com)
-
-### Original source
-
-This library is possible thanks to original [arduino-mcp23017](https://github.com/blemasle/arduino-mcp23017) library. Thank you, blemasle.
 
 ### Open-source license
 

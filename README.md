@@ -1,8 +1,8 @@
 # Soldered Slider Potentiometer Qwiic Component
 
-| ![Product name](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
+| ![Slider Potentiometer with Qwiic](https://cms.soldered.com/products/333131/media/333131_featured-photo_5bd23c.jpg) |
 | :------------------------------------------------------------------------------------: |
-|                    [Slider Potentiometer Qwiic](https://www.solde.red/SKU)             |
+|                    [Slider Potentiometer with Qwiic](https://www.solde.red/333131)             |
 
 ESP-IDF driver for the Soldered Slider Potentiometer Qwiic board, part of the [Qwiic ecosystem](https://soldered.com/collections/qwiic-ecosystem). Reads the slider position over I2C via the board's onboard ATtiny (easyC firmware), as raw 10-bit ADC value (0-1023) or scaled percentage. The board's I2C address defaults to `0x30`, ORed with up to 3 bits set by the onboard DIP switches (`0x30`-`0x37`).
 

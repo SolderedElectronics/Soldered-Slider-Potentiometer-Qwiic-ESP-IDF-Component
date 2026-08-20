@@ -1,4 +1,4 @@
-version: "0.1.0"
+version: "1.0.0"
 description: "Driver for the Soldered Slider Potentiometer Qwiic board"
 url: "https://github.com/SolderedElectronics/Soldered-Slider-Potentiometer-Qwiic-ESP-IDF-Component"
 license: "GPL-3.0"

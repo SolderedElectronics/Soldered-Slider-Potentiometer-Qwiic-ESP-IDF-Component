@@ -1,10 +1,10 @@
 /**
- * @file soldered-slider-potentiometer-qwiic.c
+ * @file soldered_slider_potentiometer_qwiic.c
  * @brief Implementation for the Soldered Slider Potentiometer Qwiic component
  * @author Soldered Electronics
  */
 
-#include "soldered-slider-potentiometer-qwiic.h"
+#include "soldered_slider_potentiometer_qwiic.h"
 
 /** Register value that selects the slider ADC reading */
 #define SOLDERED_SLIDER_POT_REG_VALUE 0x00

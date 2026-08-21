@@ -7,7 +7,7 @@
 #include <stdio.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
-#include "soldered-slider-potentiometer-qwiic.h"
+#include "soldered_slider_potentiometer_qwiic.h"
 
 /* Qwiic uses the ESP32's default I2C pins on Soldered boards; adjust if needed. */
 #define I2C_SDA_GPIO 8

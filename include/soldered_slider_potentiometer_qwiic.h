@@ -1,5 +1,5 @@
 /**
- * @file soldered-slider-potentiometer-qwiic.h
+ * @file soldered_slider_potentiometer_qwiic.h
  * @brief Public API for the Soldered Slider Potentiometer Qwiic component
  * @author Soldered Electronics
  */
